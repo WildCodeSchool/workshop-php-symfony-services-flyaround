@@ -10,7 +10,7 @@ Workshop instructions: https://wildcodeschool.github.io/workshop-php-symfony-ser
 3. in root foler, `cp .env .env.loval` and configure your `DATABASE_URL`
 4. run `php bin/console doctrine:database:create`
 5. run `php bin/console doctrine:schema:create`
-6. run `php bin/console doctirne:fixtures:load`
+6. run `php bin/console doctrine:fixtures:load`
 
 This will populate your database with cities data.
 
